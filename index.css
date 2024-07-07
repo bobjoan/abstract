@@ -1,0 +1,41 @@
+.container {
+  border: 10px;
+  border-radius: 10px;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.request {
+  background-color: #1a191c;
+  color: #fff;
+}
+.signing {
+  background-color: #4c5fd5;
+  color: #fff;
+}
+.front {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+.header {
+  background-color: #dadbf1;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+footer li {
+  font-size: 13px;
+}
+footer h3 {
+  font-size: 20px;
+}
+li {
+  list-style-type: none;
+}
