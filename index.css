@@ -1,7 +1,15 @@
+:root {
+  --default-font: "Roboto", sans-serif;
+}
 .container {
-  padding: 30px;
   border-radius: 20px;
   margin: 0 auto;
+}
+h1,
+h2,
+h3,
+p {
+  font-family: var(--default-font);
 }
 .header {
   text-align: center;
@@ -10,20 +18,27 @@
 .header h1 {
   font-size: 50px;
 }
-button {
-  padding: 5px;
-  border-radius: 5px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
   border: none;
   margin-top: 5px;
+  margin-left: auto;
 }
 .request {
   border: 1px solid #fff;
+  border-radius: 4px;
   background-color: #1a191c;
   color: #fff;
+  margin-left: 10px;
 }
 .signing {
   background-color: #4c5fd5;
   color: #fff;
+  margin: 10px;
+  border: 1px solid none;
+  border-radius: 4px;
 }
 .front {
   background-color: #000;
@@ -33,10 +48,10 @@ button {
   align-items: center;
   color: #fff;
 }
-.front .button {
-  display: flex;
-  justify-items: end;
-  margin-left: auto;
+span {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-family: var(--default-font);
 }
 input {
   width: 60%;
@@ -54,6 +69,7 @@ h2 {
 }
 a {
   text-decoration: none;
+  font-family: var(--default-font);
 }
 .branches {
   padding: 80px;
